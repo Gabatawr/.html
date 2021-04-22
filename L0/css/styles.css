@@ -1,0 +1,20 @@
+body {
+    background: rgb(96, 138, 255);
+}
+
+.header {
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+.header:hover {
+    color:rgb(255, 128, 0)
+}
+
+.header:active {
+    color:rgb(255, 0, 0)
+}
+
+.Checkbox:checked + label {
+    color: white;
+}
