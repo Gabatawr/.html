@@ -1,0 +1,33 @@
+.bar {
+    position: relative;
+    margin: 20px;
+
+    width:200px;
+    height:20px;
+
+    border: solid 2px orange;
+}
+
+.bar::before {
+    position: absolute;
+    content: '';
+    width:20px; height:20px;
+    background-color: orange;
+    top: 0;
+
+    animation-name: progress;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes progress {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 180px;
+    }
+}
