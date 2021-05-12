@@ -12,20 +12,24 @@
 <body>
     <header class="bg-gradient-to-r from-red-400 to-yellow-400
                    w-screen h-14
-                   grid grid-cols-3 items-center">
+                   grid grid-cols-3 items-center
+                   text-white font-semibold">
         <a href="#" class="justify-self-center">
             <img src="http://preview.hasthemes.com/moto/img/icon/logo.png" alt="Logo Moto">
         </a>
-        <nav class="justify-end">
-            <a href="#" class="">Home</a>
-            <a href="#" class="">About</a>
-            <a href="#" class="">Features</a>
-            <a href="#" class="">Pricing</a>
-            <a href="#" class="">Client</a>
-            <a href="#" class="">Team</a>
-            <a href="#" class="">Contact</a>
+        <nav class="flex justify-around mr-2">
+            <a href="#" class="text-gray-300">Home</a>
+            <a href="#" class="hover:text-gray-300">About</a>
+            <a href="#" class="hover:text-gray-300">Features</a>
+            <a href="#" class="hover:text-gray-300">Pricing</a>
+            <a href="#" class="hover:text-gray-300">Client</a>
+            <a href="#" class="hover:text-gray-300">Team</a>
+            <a href="#" class="hover:text-gray-300">Contact</a>
         </nav>
-        <button class="justify-self-start">Download</button>
+        <button class="justify-self-start
+                       font-semibold
+                       border rounded p-1 pr-5 pl-5
+                       hover:bg-red-500 hover:border-red-500">Download</button>
     </header>
 </body>
 
